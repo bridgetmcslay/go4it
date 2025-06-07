@@ -41,10 +41,10 @@ document.querySelector("#frankify").addEventListener("click", function(){
     //let pos = 0;
     var franks = document.querySelector("#numberoffranks").value;
     franks = parseInt(franks);
-     var elan = (Math.random()*franks)/1;
+    var elan = Math.round(Math.random()*franks);
     for (let i = 0; i < franks; i++)
     {
-          if (franks > 150)&&(i == elan)
+          if ((franks > 150)&&(i == elan))
           {
                frank = document.createElement("img");
                frank.src ="elanlavie.jpg";
@@ -61,3 +61,4 @@ document.querySelector("#frankify").addEventListener("click", function(){
 document.querySelector("#clear").addEventListener("click", function(){
     document.querySelector("#frankspace").innerHTML = "";
 });
+

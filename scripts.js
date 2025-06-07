@@ -47,7 +47,7 @@ document.querySelector("#frankify").addEventListener("click", function(){
           if (franks > 150)&&(i == elan)
           {
                frank = document.createElement("img");
-               frank.src ="feministaf.png";
+               frank.src ="elanlavie.jpg";
                document.querySelector("#frankspace").appendChild(frank);
           }
           else

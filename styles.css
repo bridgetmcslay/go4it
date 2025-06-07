@@ -1,0 +1,37 @@
+#feministaf {
+
+    display: block;
+    margin: auto;
+    height: 400px;
+
+}
+body{
+    color: purple;
+}
+
+.mn{
+    font-family: "Papyrus";
+    text-decoration: none;
+    color: purple;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#numberoffranks{
+
+    display: block;
+    margin: auto;
+}
+
+#flying{
+
+
+    display: block;
+    height: 150px;
+}
+#buttons{
+    text-align: center;
+}

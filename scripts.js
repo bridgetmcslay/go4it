@@ -38,7 +38,6 @@ var franks = document.querySelector("#numberoffranks").value;
 franks = parseInt(franks);
 //the kind, helpful duck helped me to debug this
 document.querySelector("#frankify").addEventListener("click", function(){
-    //let pos = 0;
     var franks = document.querySelector("#numberoffranks").value;
     franks = parseInt(franks);
     var elan = Math.round(Math.random()*franks);

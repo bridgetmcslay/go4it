@@ -14,4 +14,6 @@ files:
 - didyouknow.html → the second location. 
 - feministaf.jpg → just a picture, not all that integral to the functionality of the page, but it's a really funny picture
 
-VIDEO
+<video src="https://youtu.be/4pdl6lXsvlQ?s=t0zo4FtjxemHA1_D"></video>
+
+shoutout shannon for all the help!!! seriously man i really appreciate it <3

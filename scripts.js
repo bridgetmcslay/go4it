@@ -36,15 +36,26 @@ function flash() {
 }
 var franks = document.querySelector("#numberoffranks").value;
 franks = parseInt(franks);
+//the kind, helpful duck helped me to debug this
 document.querySelector("#frankify").addEventListener("click", function(){
     //let pos = 0;
     var franks = document.querySelector("#numberoffranks").value;
     franks = parseInt(franks);
+     var elan = (Math.random()*franks)/1;
     for (let i = 0; i < franks; i++)
     {
-        frank = document.createElement("img");
-        frank.src ="feministaf.png";
-        document.querySelector("#frankspace").appendChild(frank);
+          if (franks > 150)&&(i == elan)
+          {
+               frank = document.createElement("img");
+               frank.src ="feministaf.png";
+               document.querySelector("#frankspace").appendChild(frank);
+          }
+          else
+          {
+               frank = document.createElement("img");
+               frank.src ="feministaf.png";
+               document.querySelector("#frankspace").appendChild(frank);
+          }
     }
 });
 document.querySelector("#clear").addEventListener("click", function(){
